@@ -1,0 +1,55 @@
+h1 {
+  color: brown;
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid black;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  word-wrap: break-word;
+}
+
+th {
+  color: red;
+  font-style: italic;
+  font-family: "Times New Roman", serif;
+}
+h2,
+h3 {
+  color: brown;
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+p {
+  word-wrap: break-word;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+a:link,
+a:defined {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: skyblue;
+  display: inline-block;
+}
+a:hover,
+a:active {
+  background-color: blue;
+}
